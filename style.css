@@ -1,0 +1,65 @@
+body{
+    background-color: #ffc600;
+}
+#header{
+    font-size: 30px;
+    width: 400px;
+    letter-spacing: 10px;
+}
+h2,h3{
+    color: #072ac8;
+}
+#emoji-examples{
+    background-color: #1e96fc;
+    width: 350px;
+    height: 40px;
+    border-radius: 5px;
+}
+#main-div{
+    display: flex;
+
+}
+#result-div h3{
+    background-color: #1e96fc;
+    color: #fcf300;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: 250px;
+}
+#webcam-div h3{
+    background-color: #1e96fc;
+    color: #fcf300;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: 150px;
+}
+#prediction-div h3{
+    background-color: #1e96fc;
+    color: #fcf300;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: 150px;
+}
+#webcam-div{
+    width: 736px;
+}
+#prediction-div{
+    width:350px
+}
+#result-div{
+    width:736px
+}
+#webcam,#captured-image{
+    height: 300px;
+    width: 300px;
+    border-radius: 0;
+    border-color: black;
+    border-style: dotted;
+}
+p{
+    font-size: 50px;
+    color: #1e96fc;
+}
